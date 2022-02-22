@@ -32,7 +32,7 @@ varargout{1} = handles.output;
 
 function deger1_Callback(hObject, eventdata, handles)
 
-[filename,filepath]=uigetfile({'*.*'},'ANAL›Z ED›LECEK RESM› SE«›N›Z');
+[filename,filepath]=uigetfile({'*.*'},'ANAL√ùZ ED√ùLECEK RESM√ù SE√á√ùN√ùZ');
 selectedImage=imread(strcat(filepath,filename));
 axes(handles.axes1);
 imshow(selectedImage);
